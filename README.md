@@ -1,85 +1,127 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="nikhis-s header: building reliable software systems, spanning operations, Python and applied AI/ML" width="100%" />
+  <img src="assets/profile-header.svg" alt="nikhis-s — banner reading 'Building reliable software systems', with fine circuit motifs; a secondary line lists Python, applied AI/ML and operations engineering." width="100%" />
 </p>
 
-<h1 align="center">nikhis-s</h1>
-
 <p align="center">
-  <strong>Operations &amp; Support professional building toward AI/ML engineering</strong>
+  <strong>Operations &amp; Support professional building reliable, tested software with Python and applied AI/ML.</strong>
 </p>
 
 ---
 
 ## Introduction
 
-I work in Amazon Operations/Support, where I spend my days solving real problems under real constraints: ambiguous requests, incomplete information, and systems that have to keep running. That experience shapes how I build software — I care about reliability, clear diagnostics, and tools that people can actually trust.
+I work in Amazon Operations/Support, where problems arrive ambiguous and systems have to keep running. That work taught me to value clear diagnostics, predictable behaviour and tools people can genuinely trust — the same instincts I now bring to building software.
 
-I am now focused on turning that operational instinct into engineering practice: Python application development, automation of repetitive work, applied AI and LLM-powered tools, and disciplined software design. My goal is to build useful, reliable software — not demos.
+I am moving from operations into **applied AI/ML engineering**: writing Python applications, automating repetitive work, and building AI-enabled tools that are grounded, testable and honest about what they can do. The goal is useful, reliable software — not demos.
 
 ---
 
-## Technical direction
+## Engineering focus
 
-Skills and technologies are grouped honestly by where they currently stand.
+<p align="center">
+  <img src="assets/engineering-map.svg" alt="Diagram of four connected engineering focus areas: Python and application engineering; applied AI and LLM systems; machine learning and data evaluation; reliability, testing and operations." width="100%" />
+</p>
 
-### Working with regularly
-- **Python and software engineering** — scripting, automation, structured application code, debugging
-- **Testing, reliability and automation** — test-first habits, deterministic behaviour, reducing manual toil
+---
 
-### Actively building with
-- **Backend APIs and databases** — service design, persistent storage, configuration management
-- **Applied AI and LLM applications** — conversational interfaces, retrieval over documents, tool-use patterns, user-controlled memory
+## Technical focus
 
-### Currently learning and exploring
-- **Machine learning and data analysis** — model evaluation, feature thinking, honest metric reporting
-- **Production AI patterns** — evaluation harnesses, safe tool execution, observability for AI features
+Grouped by where each skill actually stands today — not by aspiration.
 
-I do not claim proficiency in a technology because a planned project mentions it. Skills move from "learning" to "building with" only after I have implemented and tested something real.
+**Working with regularly** — everyday tools in real work
+
+`Python` · `Git` · `GitHub` · `Automation` · `Testing` · `Debugging`
+
+**Building with** — applied in current project work
+
+`Backend APIs` · `Databases` · `LLM integration` · `Retrieval (RAG)` · `Tool use` · `Configuration management`
+
+**Learning &amp; exploring** — study and early experiments
+
+`Machine learning` · `Model evaluation` · `Data analysis` · `Evaluation harnesses` · `Observability for AI`
+
+> A technology moves from *learning* to *building with* only after I have implemented and tested something real with it. Planned use is not proficiency.
 
 ---
 
 ## Projects
 
-Four applications are in active development. Two apply AI; two are deliberately AI-free, deterministic systems. Each will stay honestly labelled until real, tested functionality exists.
+Four applications in active development: two apply AI, two are deliberately deterministic and AI-free. Everything stays marked **IN DEVELOPMENT** until tested functionality exists.
 
-### AEGIS AI <sub>IN DEVELOPMENT</sub>
-A JARVIS-inspired personal assistant. Planned capabilities include conversational AI, safe tool execution, document search, and user-controlled memory. The emphasis is on giving the user explicit control over what the assistant remembers and what actions it can take.
+### AEGIS AI · `IN DEVELOPMENT`
 
-### DOCUMIND AI <sub>IN DEVELOPMENT</sub>
-A document intelligence application. It will process documents, retrieve relevant evidence, and answer questions using configurable AI integration, so the underlying model can be swapped or upgraded without rewriting the application.
+A JARVIS-inspired personal assistant.
 
-### SENTINEL <sub>IN DEVELOPMENT</sub>
-A Python cybersecurity log analyzer. It uses deterministic rules, event correlation, and evidence-backed alerts. Sentinel contains no AI or machine learning by design — every alert traces to explicit, inspectable rules.
+- **Purpose** — a conversational assistant that stays under the user's control.
+- **Core functionality** — conversational AI, safe tool execution, document search, and user-controlled memory.
+- **Classification** — AI-powered.
+- **Stack** — Python with configurable LLM integration *(planned)*.
+- **Repository** — not published yet.
 
-### OPSFLOW <sub>IN DEVELOPMENT</sub>
-An operations and SLA management application. Planned features include persistent tickets, configurable workflows, escalation rules, and operational analytics. Like Sentinel, it is deliberately deterministic — no AI or ML.
+### DOCUMIND AI · `IN DEVELOPMENT`
 
-Repository links, screenshots, and demos will be added here only once the corresponding repositories exist and the functionality is verified.
+A document intelligence application with grounded retrieval.
 
----
+- **Purpose** — turn a pile of documents into answerable, evidence-backed knowledge.
+- **Core functionality** — process documents, retrieve relevant evidence, and answer questions with citations.
+- **Classification** — AI-powered.
+- **Stack** — Python with configurable LLM integration *(planned)*.
+- **Repository** — not published yet.
 
-## Current focus
+### SENTINEL · `IN DEVELOPMENT`
 
-My transition from Amazon Operations/Support into applied AI/ML engineering is underway. Day to day, that means:
+A cybersecurity log analyzer that explains every alert.
 
-- Shipping practical Python systems with real persistence and tests
-- Building LLM-powered features with retrieval, tool use, and user-controlled memory
-- Studying machine learning fundamentals and evaluating models with measured results
-- Applying operational discipline — runbooks, escalation logic, SLA thinking — to software I design
+- **Purpose** — surface real security signal from raw logs without a black box.
+- **Core functionality** — deterministic rules, event correlation, and evidence-backed alerts.
+- **Classification** — no AI or machine learning, by design. Every alert traces to an explicit, inspectable rule.
+- **Stack** — Python.
+- **Repository** — not published yet.
+
+### OPSFLOW · `IN DEVELOPMENT`
+
+An operations and SLA management application.
+
+- **Purpose** — run operational workflows and SLAs with clear, predictable rules.
+- **Core functionality** — persistent tickets, configurable workflows, escalation rules, and operational analytics.
+- **Classification** — no AI or machine learning, by design.
+- **Stack** — Python with persistent storage *(planned)*.
+- **Repository** — not published yet.
+
+Repository links, screenshots and demos will be added to each project only once the repository exists and the functionality is verified.
 
 ---
 
 ## Engineering principles
 
-- **Real functionality over mockups.** If it is not implemented and tested, it is labelled as in development.
-- **Testing and reproducibility.** Deterministic behaviour and automated tests before claims.
-- **Clear documentation.** Code and systems that another engineer can understand and operate.
-- **Secure configuration and responsible data handling.** Secrets stay out of code; user data is handled deliberately.
-- **Measured results over unsupported claims.** Metrics are reported only when they have been actually measured.
-- **Learning through implementation and iteration.** Skills are earned by shipping, not by listing.
+- **Real functionality over mockups** — if it is not implemented and tested, it is labelled as in development.
+- **Testing and reproducibility** — deterministic behaviour and automated tests before any claim.
+- **Clear documentation** — systems another engineer can understand and operate.
+- **Secure configuration and responsible data handling** — secrets stay out of code; user data is handled deliberately.
+- **Measured results over unsupported claims** — metrics are reported only when actually measured.
+- **Learning through implementation** — skills are earned by shipping, not by listing.
+
+---
+
+<details>
+<summary><strong>Signature</strong></summary>
+
+```text
+#  nikhis-s  ──────────────────────────────────────
+#  focus   : reliable, tested software
+#  path    : operations  →  Python  →  applied AI / ML
+#  method  : build it, test it, measure it, document it
+#  rule    : no claim without evidence
+```
+
+</details>
 
 ---
 
 ## Contact
 
-I am open to conversations about software engineering and applied AI/ML roles. You can reach me through my [GitHub profile](https://github.com/nikhis-s).
+Open to conversations about software engineering and applied AI/ML roles.
+
+- **GitHub** — [github.com/nikhis-s](https://github.com/nikhis-s)
+
+Additional contact details will be added here only if verified and provided.

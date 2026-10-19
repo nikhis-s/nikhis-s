@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="mapTitle mapDesc">
+  <title id="mapTitle">Engineering focus areas for nikhis-s</title>
+  <desc id="mapDesc">Four connected focus areas: Python and application engineering; applied AI and LLM systems; machine learning and data evaluation; reliability, testing and operations. These are areas of active focus and growth, not verified mastery.</desc>
+
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#131f36" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="440" fill="#0b1120"/>
+  <rect width="1200" height="440" fill="url(#grid)" opacity="0.4"/>
+
+  <text x="600" y="62" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="600" fill="#7f97b4" letter-spacing="5">ENGINEERING FOCUS AREAS</text>
+
+  <!-- schematic bus -->
+  <line x1="55" y1="104" x2="1145" y2="104" stroke="#1b2c4a" stroke-width="1.5"/>
+  <g stroke="#1b2c4a" stroke-width="1.5">
+    <line x1="180" y1="104" x2="180" y2="130"/>
+    <line x1="460" y1="104" x2="460" y2="130"/>
+    <line x1="740" y1="104" x2="740" y2="130"/>
+    <line x1="1020" y1="104" x2="1020" y2="130"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="180" cy="104" r="3.5"/>
+    <circle cx="460" cy="104" r="3.5"/>
+    <circle cx="740" cy="104" r="3.5"/>
+    <circle cx="1020" cy="104" r="3.5"/>
+  </g>
+
+  <!-- connector between cards -->
+  <g stroke="#16233c" stroke-width="1.5" stroke-dasharray="4 6">
+    <line x1="305" y1="250" x2="335" y2="250"/>
+    <line x1="585" y1="250" x2="615" y2="250"/>
+    <line x1="865" y1="250" x2="895" y2="250"/>
+  </g>
+
+  <!-- card 01 -->
+  <rect x="55" y="130" width="250" height="240" rx="14" fill="#0e1526" stroke="#1b2c4a" stroke-width="1.5"/>
+  <rect x="75" y="150" width="210" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="75" y="184" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="17" font-weight="700" fill="#22d3ee">01</text>
+  <text x="75" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Python &amp; Application</text>
+  <text x="75" y="240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Engineering</text>
+  <line x1="75" y1="258" x2="285" y2="258" stroke="#1b2c4a" stroke-width="1"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="75" y="288">▸  Automation &amp; tooling</text>
+    <text x="75" y="314">▸  Backend services</text>
+    <text x="75" y="340">▸  Tested, readable code</text>
+  </g>
+
+  <!-- card 02 -->
+  <rect x="335" y="130" width="250" height="240" rx="14" fill="#0e1526" stroke="#1b2c4a" stroke-width="1.5"/>
+  <rect x="355" y="150" width="210" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="355" y="184" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="17" font-weight="700" fill="#22d3ee">02</text>
+  <text x="355" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Applied AI &amp;</text>
+  <text x="355" y="240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">LLM Systems</text>
+  <line x1="355" y1="258" x2="565" y2="258" stroke="#1b2c4a" stroke-width="1"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="355" y="288">▸  Retrieval (RAG)</text>
+    <text x="355" y="314">▸  Tool use &amp; safety</text>
+    <text x="355" y="340">▸  User-controlled memory</text>
+  </g>
+
+  <!-- card 03 -->
+  <rect x="615" y="130" width="250" height="240" rx="14" fill="#0e1526" stroke="#1b2c4a" stroke-width="1.5"/>
+  <rect x="635" y="150" width="210" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="635" y="184" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="17" font-weight="700" fill="#22d3ee">03</text>
+  <text x="635" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Machine Learning &amp;</text>
+  <text x="635" y="240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Data Evaluation</text>
+  <line x1="635" y1="258" x2="845" y2="258" stroke="#1b2c4a" stroke-width="1"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="635" y="288">▸  Model evaluation</text>
+    <text x="635" y="314">▸  Metric discipline</text>
+    <text x="635" y="340">▸  Data analysis</text>
+  </g>
+
+  <!-- card 04 -->
+  <rect x="895" y="130" width="250" height="240" rx="14" fill="#0e1526" stroke="#1b2c4a" stroke-width="1.5"/>
+  <rect x="915" y="150" width="210" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="915" y="184" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="17" font-weight="700" fill="#22d3ee">04</text>
+  <text x="915" y="216" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">Reliability, Testing</text>
+  <text x="915" y="240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e2e8f0">&amp; Operations</text>
+  <line x1="915" y1="258" x2="1125" y2="258" stroke="#1b2c4a" stroke-width="1"/>
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="915" y="288">▸  Automated testing</text>
+    <text x="915" y="314">▸  Observability</text>
+    <text x="915" y="340">▸  Runbooks &amp; SLAs</text>
+  </g>
+
+  <text x="600" y="408" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Areas of active focus and growth — not verified mastery.</text>
+</svg>
